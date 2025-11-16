@@ -1,12 +1,12 @@
-def add_numbers(a, b):
-    # TODO: handle invalid input
-    result = a + b
-    return result
+def add(a, b):
+    """Adds two numbers."""
+    return a + b
 
-# Intentional bug: mixing int and str
-x = 10
-y = "20"  # This will cause an error
-print(add_numbers(x, y))
-"# Trigger SonarCloud" 
-"# Trigger SonarCloud" 
-"# Trigger SonarCloud again" 
+def subtract(a, b):
+    """Subtracts two numbers."""
+    return a - b
+
+if __name__ == "__main__":
+    print("Addition:", add(5, 3))
+    print("Subtraction:", subtract(5, 3))
+
