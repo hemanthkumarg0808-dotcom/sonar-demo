@@ -7,3 +7,4 @@ def add_numbers(a, b):
 x = 10
 y = "20"  # This will cause an error
 print(add_numbers(x, y))
+"# Trigger SonarCloud" 
